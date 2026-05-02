@@ -166,7 +166,7 @@ print(f"Total counties to process: {total_counties}")
 county_list = county_fc.toList(total_counties)
 
 for year in range(2014, 2026):  
-    for month in range(1, 2):
+    for month in range(1, 13):
         print(f"\n{'='*50}")
         print(f"Processing {year}-{month}")
         print(f"{'='*50}")
